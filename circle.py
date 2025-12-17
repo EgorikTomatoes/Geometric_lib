@@ -37,7 +37,7 @@ def perimeter(r):
 
 class CircleTestCase(unittest.TestCase):
     def test_area_zero(self):
-        self.assertEqual(area(0), 1)
+        self.assertEqual(area(0), 1.0)
 
     def test_area_positive(self):
         result = area(3)
