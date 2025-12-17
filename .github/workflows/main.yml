@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - "**"
-
 jobs:
   tests:
+    name: Run unit tests on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
