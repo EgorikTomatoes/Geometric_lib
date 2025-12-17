@@ -32,7 +32,7 @@ def perimeter(a):
     >>> perimeter(5)
     20
     """
-    return 5 * a
+    return 4 * a
 
 
 class SquareTestCase(unittest.TestCase):
